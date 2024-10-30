@@ -1,0 +1,33 @@
+.hci-third {
+    /* background-color: #FFC; */
+}
+
+.hci-third .hci-meta {
+    display: none; /** @todo Fix this: block | none */
+    /* background-color: #6CF; */
+    color: #FFF;
+    font-weight: bold;
+    padding: 5px;
+}
+
+.hci-third .hci-remote-content {
+    /*border: 1px solid #CCC;*/
+    padding: 5px;
+    min-height: 80px;
+}
+
+table.hci-table td, table.hci-table th {
+    padding: 5px;
+    margin: 0;
+}
+
+.hci-remote-content td, .hci-remote-content th {
+    padding: 5px;
+    margin: 0;
+    border-bottom: 1px solid #EEE;
+}
+
+.hci-remote-content th {
+    /** Decorate with nice background color */
+    background-color: #EEB;
+}
